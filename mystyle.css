@@ -1,0 +1,78 @@
+body{top:15px;}
+
+.principal{width:60%;
+		background-color:white;
+		margin: 0 auto;}
+		
+.inf{background-color:1C1C1C;
+	width:100%;
+	text-align: center;}
+
+.ferramentas{display: inline-block;
+margin: 5% 10% 5% 10%;}
+		
+.materias{margin: 5% 10% 5% 10%;}
+
+.famosos{margin: 0% 15% 0% 15%;
+text-align: center; }
+
+.card {width:90%}
+
+.w3-card{width:50%;
+text-align: left; }
+
+.w3-card-4 {width:95%;
+height: 630px}
+
+.w3-card-2{width:90%; height: 430px}
+		
+		
+form {width:90%;
+	background-color:white;
+	margin: 0 auto;
+	font-family: georgian;}
+
+button {color: white;}
+
+h1, h5 { text-align: center;
+	color: 03989E ;
+	font-family: georgian;}
+	
+
+	
+h2 { text-align: left;
+	color:white;
+	font-size: 25px;
+	text-align: center;}
+	
+h1{ font-size: 40px;
+	background-color:white;}
+	
+
+a {font-family: verdana ;
+  font-size: 15px;
+  color: FFD700;}
+
+h4 {font-family: verdana ;
+  font-size: 15px;
+  color: 363636;}
+  
+a:link, a:visited {
+background-color:03989E;
+color:white;
+padding: 12px 20px;
+text-align: center;
+text-decoration: none;
+display: inline;}
+
+a:hover, a:active {background-color: 6D6C6C;}
+
+.menu {background-color: 03989E;
+list-style-type: none;
+text-align: center;
+padding: 0;
+margin: 0;}
+.menu li {display: inline-block;
+font-size: 15px;
+padding: 15px;}
+

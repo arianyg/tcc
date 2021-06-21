@@ -1,0 +1,123 @@
+<html>
+    <head>
+	<link rel="stylesheet" type= "text/css" href="mystyle.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<script type="text/javascript" src="quiz.js"></script>
+    <title> quiz </title>
+    </head>
+    <body>
+		<center> <img src="logo2.png" width=50%/>
+			<div class="menu">
+				<ul>
+					<li><a href="Inicio.html"> Início </a> </li>
+				    <li><a href="Quiz.html"> Quiz de segurança </a></li>
+				    <li><a href="famosos.html"> Casos famosos de roubo de dados </a></li>
+				    <li><a href="links.html"> Ferramentas extras </a></li>
+				</ul>
+			</div>
+		<div class="w3-card" width=50%>
+			<form class="w3-container" id="quiz" name="quiz">
+					<h1> Responda o quiz de segurança </h1>  
+				
+				<div>
+					<h3>Questão 1 </h3>
+					<h4>Você acessa suas redes usando internet pública(shoppings, bares, restaurantes...)?</h4>
+					<p><input class="w3-radio" type="radio" name="pergunta1" value="Sim"> Sim</p>
+					<p><input class="w3-radio" type="radio" name="pergunta1" value="Não"> Não</p>	</div>
+				
+				<div>
+					<br>
+					<h3>Questão 2 </h3>
+					<h4>Você adiciona pessoas desconhecidas nas suas redes sociais?</h4>
+					<p><input class="w3-radio" type="radio" name="pergunta2" value="Sim"> Sim</p>
+					<p><input class="w3-radio" type="radio" name="pergunta2" value="Não"> Não</p> </div>
+				
+				<div>
+					<br>
+					<h3>Questão 3 </h3>
+					<h4>Você costuma deixar seus dados(telefone, endereço, emprego, relacionamento) visíveis em suas redes sociais?</h4>
+					<p><input class="w3-radio" type="radio" name="pergunta3" value="Sim"> Sim</p>
+					<p><input class="w3-radio" type="radio" name="pergunta3" value="Não"> Não</p> </div>
+					
+				<div>
+					<br>
+					<h3>Questão 4 </h3>
+					<h4>Você deixa suas informações em modo público?</h4>
+					<p><input class="w3-radio" type="radio" name="pergunta4" value="Sim"> Sim</p>
+					<p><input class="w3-radio" type="radio" name="pergunta4" value="Não"> Não</p> </div>
+				
+				<div>
+					<br>
+					<h3>Questão 5 </h3>
+					<h4>Você utiliza datas comemorativas/importantes como senha?</h4>
+					<p><input class="w3-radio" type="radio" name="pergunta5" value="Sim"> Sim</p>
+					<p><input class="w3-radio" type="radio" name="pergunta5" value="Não"> Não</p> </div>
+				
+				<div>
+					<br>
+					<h3>Questão 6 </h3>
+					<h4>Você costuma dar permissão de acesso aos seus dados para sites e aplicativos desconhecidos?</h4>
+					<p><input class="w3-radio" type="radio" name="pergunta6" value="Sim"> Sim</p>
+					<p><input class="w3-radio" type="radio" name="pergunta6" value="Não"> Não</p> </div>
+					
+				<div>
+					<br>
+					<h3>Questão 7 </h3>
+					<h4>Costuma marcar a localização e posts?</h4>
+					<p><input class="w3-radio" type="radio" name="pergunta7" value="Sim"> Sim</p>
+					<p><input class="w3-radio" type="radio" name="pergunta7" value="Não"> Não</p> </div>
+				
+				<div>
+					<br>
+					<h3>Questão 8 </h3>
+					<h4>Costuma passar suas informações pessoais (telefone, endereço, documentos pessoais, cartão de banco) com facilidade?</h4>
+					<p><input class="w3-radio" type="radio" name="pergunta8" value="Sim"> Sim</p>
+					<p><input class="w3-radio" type="radio" name="pergunta8" value="Não"> Não</p> </div>
+				
+				<div>
+					<br>
+					<h3>Questão 9 </h3>
+					<h4>Você utiliza recursos de privacidade e segurança (verificação de duas etapas, quem pode ver sua lista de amigos e suas fotos)?</h4>
+					<p><input class="w3-radio" type="radio" name="pergunta9" value="Sim"> Sim</p>
+					<p><input class="w3-radio" type="radio" name="pergunta9" value="Não"> Não</p> </div>
+			
+				<div>
+					<br>
+					<h3>Questão 10 </h3>
+					<h4>Você procura se informar de habitos e de como se proteger na internet?</h4>
+					<p><input class="w3-radio" type="radio" name="pergunta10" value="Sim"> Sim</p>
+					<p><input class="w3-radio " type="radio" name="pergunta10" value="Não"> Não</p> </div>
+					
+				<center> <br> <input class="w3-button" style="background-color:03989E" type="reset" name="Apagar tudo"> <br><br>	
+							
+			</form>
+		</div>
+			<br> <button onclick="document.getElementById('id01').style.display='block'"
+			class="w3-button" style="background-color:03989E">Proximo</button>
+			
+		<!-- The Modal -->
+		<div id="id01" class="w3-modal">
+			<div class="w3-modal-content">
+				<header class="w3-container" style="background-color:03989E">
+				  <span onclick="document.getElementById('id01').style.display='none'"
+				  class="w3-button w3-display-topright">&times;</span>
+				  <h2> Seu resultado</h2>
+				</header>
+
+				<div class="w3-container">
+				  <br><input class="w3-button" type="button" value="Ver Resultado" onclick="check()" style="background-color:03989E">
+				  <p id="result"></p>
+				</div>
+
+			</div>
+		</div>
+	<div class="w3-panel" style= "background-color:03989E">
+		<br>
+		<a href="Quiz.html"> Quiz de segurança </a>
+		<a href="famosos.html"> Casos reais </a>
+		<a href="links.html"> Matérias e Ferramentas </a>
+		<br><br>
+	</div>	
+		
+	</body>
+</html>
